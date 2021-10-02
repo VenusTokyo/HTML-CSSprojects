@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(194,237,207)
+}
+.heading{
+    color:#388087;
+    text-align: center;
+
+     /* border: 2px solid black;  */
+    position: relative;
+    top: 220px;
+    line-height: 35px;
+}
+
+.name{
+    font-size: 59px;
+    font-family: 'Open Sans', sans-serif;
+}
+.about{
+    font-size: 20px;
+    line-height: 2px;
+}
+.att{
+    position: relative;
+    top: 240px;
+    /* border: 2px solid black */
+    
+
+
+}
