@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Time</title>
+</head>
+<body>
+<form>
+<input type="text" id="text1">
+<br><br>
+<input type="button" value="Start" onclick="Start()" />
+<input type="button" value="Stop" onclick="Stop()" />
+</form>
+<script>
+  function getTime(){
+    let time = new Date(); 
+    let hour = time.getHours(); 
+    let min = time.getMinutes(); 
+    let sec = time.getSeconds(); 
+     if(hour<10)
+       hour="0"+hour;
+     if(min<10)
+       min="0"+min;
+     if(sec<10)
+       sec="0"+sec;
+ 
+    let currentTime = hour + ":" + min + ":" + sec;
+    document.forms[0].elements[0].value=currentTime;
+   }  
+  function Start() {
+  time = setInterval(getTime, 1000);
+  }
+  function Stop() {
+    clearInterval(time);
+  }
+</script>
+</body>
+</html>
