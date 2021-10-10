@@ -1,5 +1,6 @@
 {
     "name": "Dad Jokes",
+    "joke": "Name the thing that has a head, foot, and four legs. A bed"
     "version": "0.0.1",
     "manifest_version": 2,
     "browser_action":{
