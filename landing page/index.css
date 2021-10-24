@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first{
+    height: 790px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 10% 30px 10%;
+    background: #007c5d;
+    color: white;
+    
+}
+.logo{
+    font-size: 1.7rem;
+    font-weight: 600;
+    font-style: italic;
+}
+.first h1{
+    font-size: 3.5rem;
+    margin-top: 40px;
+}
+.first h2{
+    font-size: 2rem;
+    margin-top: 34px;
+   
+}
+.first p{
+    margin-bottom: 35px;
+    text-align: center;
+}
+.first form{
+    margin-top: 51px;
+    margin-bottom: 30px;
+}
+.first form input{
+    width: 236px;
+    padding: 17px;
+    height: 49px;
+    border-radius: 9px;
+    outline: none;
+    border: none;
+}
+.first form button{
+    margin-left: 33px;
+    border: none;
+    padding: 15px;
+    outline: none;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+.first form p{
+    margin-bottom: 29px;
+}
+.wave{
+    position: absolute;
+    top: 649px;
+    /* border: 5px solid black; */
+}
+ .first .img img{
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+.second{
+    
+    position: relative;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 111px 74px;
+}
+.feature{
+    /* border: 2px solid brown; */
+    width: 26.65%;
+    margin: 24px;
+}
+
+.feature h1{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.feature i{
+    font-size: 3rem;
+    color:#007c5d;
+}
+
+.third{
+    padding: 100px 8% 78px 8%;
+}
+.third hr{
+    /* border-top: 1px solid #ddd; */
+    border-bottom: none;
+   
+}
+.images{
+    padding: 38px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.images img{
+    width: 71px;
+    height: 28px;
+    margin: 16px 16px;
+}
+
+
+
+.fourth{
+    text-align: center;
+    margin: 97px 25% 96px 25%;
+}
+.fourth h1{
+    margin-bottom: 4%;
+}
+.fourth h4{
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+.fourth button{
+    border: none;
+    padding: 15px;
+    outline: none;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    margin-top: 3%;
+}
+
+
+
+
+
+
+.footer{
+    /* border: 2px solid black; */
+    width: 100%;
+    background-color: #007c5d ;
+}
+#connect{
+    padding: 1% 23%;
+}
+
+#connect ul{
+    display: flex;
+    justify-content: space-around;
+}
+#connect ul li{
+    list-style: none;
+}
+#connect ul li a i{
+    font-size: 2rem;
+    color: white;
+}
+
+
+
+@media(max-width:822px){
+.first h1{
+    font-size: 2.3rem;
+}
+.first h2{
+    font-size: 1.9rem;
+    text-align: center;
+}
+.first{
+    height: 712px;
+}
+.second{
+    display: block;
+}
+.feature{
+    width: 100%;
+    margin: 0px;
+    margin-bottom: 66px;
+}
+.first .img img{
+    top:23px;
+}
+}
+
+@media(max-width:732px){
+    .first .img img{
+        top:23px;
+    }
+}
+@media(max-width:639px){
+    .first .img img{
+        top:40px;
+    }
+}
+@media(max-width:538px){
+    .first h1{
+        font-size: 2rem;
+    }
+    .first h2{
+        font-size: 1.7rem;
+    }
+    .first .img img{
+        top:75px;
+    }
+}
+@media(max-width:482px){
+    .first form button{
+        margin-left:0px;
+        display: block;
+        width: 236px;
+        margin-top: 11px;
+    }
+}
+@media(max-width:468px){
+    .first h1{
+        font-size: 1.8rem;
+    }
+    .first h2{
+        font-size: 1.5rem;
+    }
+}
+@media(max-width:422px){
+    .first h1{
+        font-size: 1.5rem;
+    }
+    .first h2{
+        font-size: 1.3rem;
+    }
+}
+@media(max-width:350px){
+    .first h1{
+        font-size: 1.2rem;
+    }
+    .first h2{
+        font-size: 1rem;
+    }
+}
+@media(max-width:335px){
+    .images{
+
+        padding: 38px 90px;
+    }
+}
+@media(max-width:295px){
+    .first{
+        height: 695px;
+    }
+}
