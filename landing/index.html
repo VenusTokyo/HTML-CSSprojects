@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>landing page</title>
+</head>
+
+<body>
+    <header id="header">
+        <div id="header-im">
+            <img src="logo.jpg" alt="company logo" id="header-img">
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li>
+                    <a class="nav-link" href="#features">Features</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="#howitsmade">About</a>
+                </li>
+                <li>
+                    <a  class="nav-link" href="#pricing">Products</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="features" id="features">
+        <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-eercast"></i></div>
+            <div class="desc">
+                <h2>Premium Materials</h2>
+                <p>
+                    quality is at top notch. we will provide u the best quality.
+                </p>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+            <div class="desc">
+                <h2>Fast Shipping</h2>
+                <p>
+                    We make sure you recieve your order as soon as we have finished
+                    making it. We also returns if you are not satisfied.
+                </p>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="icon">
+                <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+                <h2>Quality Assurance</h2>
+                <p>
+                    For every purchase you make, we will ensure there are no damages or
+                    faults.
+                </p>
+            </div>
+        </div>
+    </section>
+    <div class="container" id="container">
+        <h2>How it's made</h2>
+        <section id="howitsmade">
+            <iframe id="video" height="315"
+                src="https://www.youtube.com/embed/GBaJA24jJGc"
+                frameborder="0" allowfullscreen=""></iframe>
+            
+           
+        </section>
+    </div>
+
+    <section id="pricing">
+        <div class="product" id="tenor">
+            <div class="level">SHELVE</div>
+            <img src="item1.jpg" alt="">
+            <h2><i class="fa fa-3x fa-rupee"></i>1100</h2>
+
+            <button class="btn">BUY</button>
+        </div>
+        
+        <div class="product" id="bass">
+            <div class="level">WALL HANGING</div>
+            <img src="item2.jpg" alt="">
+            <h2><i class="fa fa-3x fa-rupee"></i>600</h2>
+
+            <button class="btn">BUY</button>
+        </div>
+        <div class="product" id="valve">
+            <div class="level">ROMOCO</div>
+            <img src="item3.jpg" alt="">
+            <h2><i class="fa fa-3x fa-rupee"></i>1500</h2>
+            
+            <button class="btn">BUY</buttton>
+        </div>
+    </section>
+
+
+
+    <section id="subscribe">
+        <h2>SUBSCRIBE!</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input name="email" id="email" type="email" placeholder="Enter your email address" required="">
+          <input id="submit" type="submit" value="Get Started" class="btn">
+        </form>
+      </section>
+</body>
+
+</html>
