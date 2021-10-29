@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:grey;
+    /* background-image: radial-gradient(circle,#f9a72b 0,#fa9026 70%,#fb6c1f 100%); */
+    
+    
+}
+
+.inalert{
+    color: white;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 4px;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+
+.box {
+    color: white;
+    background-color: rgb(22, 22, 22);
+    border:none;
+    width: 45vw;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 7px;
+    margin: 186px auto;
+    box-shadow:10px 15px 50px black;
+    
+}
+.heading{
+    color: rgb(50, 146, 114);
+  
+  
+}
+.container .input input{
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 1.8rem;
+    margin-top: 12px;
+    background: none;
+    width: 20vw;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+}
+.btn button{
+    color: white;
+    background-color: rgb(50, 146, 114);
+    margin-top: 12px;
+    font-size: 1rem;
+    padding: 9px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.btn button:hover{
+    background-color: rgb(114, 248, 203) ;
+    color: black;
+}
